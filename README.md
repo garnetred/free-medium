@@ -1,7 +1,7 @@
 # Free Medium
 
 ## Abstract
-This browser extension automatically redirects Reddit pages to [Teddit](https://teddit.net/about), an open-source, privacy-conscious Reddit alternative.
+This browser extension allows users to access member-only Medium articles for free.
 
 ## Tech Stack
 This project uses vanilla JS, CSS, and HTML. 
@@ -16,6 +16,6 @@ You can clone the repo locally using `git clone`.
 
 
 ## Next Steps
-
+I'd like to hide the gray bar that indicates how many member-only articles you have left. 
 
 
