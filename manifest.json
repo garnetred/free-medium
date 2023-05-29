@@ -5,10 +5,10 @@
   "description": "This browser extension allows users to read Medium articles for free.",
    "permissions": ["scripting"],
   "icons": {
-    "16": "images/recycle-16.png",
-    "32": "images/recycle-32.png",
-    "48": "images/recycle-48.png",
-    "128": "images/recycle-128.png"
+    "16": "images/book-16.png",
+    "32": "images/book-32.png",
+    "48": "images/book-48.png",
+    "128": "images/book-128.png"
 },
 "background": {
     "service_worker": "scripts/background.js"
@@ -24,13 +24,14 @@
 "content_scripts": [
     {
         "matches": [
-        "*://www.reddit.com/*"
+        "*://www.medium.com/*"
       ],
-      "css": ["css/reddit.css"]
+      "css": ["css/global.css"],
+      "js": ["scripts/content.js"]
     }
 ],
   "host_permissions": [
-        "*://www.reddit.com/*"
+        "*://www.medium.com/*"
   ],
   "action": {
       "default_popup": "popup.html"
