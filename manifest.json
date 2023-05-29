@@ -3,7 +3,7 @@
   "name": "Free Medium",
   "version": "0.0.1",
   "description": "This browser extension allows users to read Medium articles for free.",
-   "permissions": ["scripting"],
+   "permissions": ["scripting", "cookies"],
   "icons": {
     "16": "images/book-16.png",
     "32": "images/book-32.png",
@@ -17,21 +17,21 @@
   {
     "resources": ["css/*.css"],
     "extension_ids": [
-      "elaobedgdmbhchnbjcfpkcgdjhfnemdk"
+      "mamebbldkcgmkgfhlgljhgomeabfepke"
     ]
     }
   ],
 "content_scripts": [
     {
         "matches": [
-        "*://www.medium.com/*"
+        "*://*.medium.com/*"
       ],
       "css": ["css/global.css"],
       "js": ["scripts/content.js"]
     }
 ],
   "host_permissions": [
-        "*://www.medium.com/*"
+        "*://*.medium.com/*"
   ],
   "action": {
       "default_popup": "popup.html"

@@ -6,14 +6,20 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (
     changeInfo.status === 'complete' &&
     tabUrl &&
-    tabUrl.includes('www.medium.com')
+    tabUrl.includes('medium.com')
   ) {
     try {
-      chrome.tabs.sendMessage(tabId, {"page": "feed"})
-
+      // chrome.tabs.sendMessage(tabId, {"onMedium": true, "error": null})
+        const allCookies = getCookies();
+        console.log(allCookies)
     } catch (error) {
-      chrome.tabs.sendMessage(tabId, {error})
+      // chrome.tabs.sendMessage(tabId, {"onMedium": false, "error": error})
     }
 
   }
 });
+
+    const getCookies = async() => {
+      const cookies = await chrome.cookies.getAll({details: {"name": '_dd_s'}});
+      return cookies;
+    }

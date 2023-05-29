@@ -1,6 +1,12 @@
 chrome.runtime.onMessage.addListener((obj, sender, response) => {
-    const { page } = obj;
-    if (response) {
-      console.log('message received', page);
-    }
-  });
+      const { onMedium, error } = obj;
+      if (response && onMedium) {
+        // localStorage.clear();
+        // console.log('local storage cleared')
+        const allCookies = getCookies();
+        console.log(allCookies)
+      } else {
+        console.error(error)
+      }
+    });
+
