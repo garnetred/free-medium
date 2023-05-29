@@ -20,7 +20,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 const getCookies = async () => {
   const cookies = await chrome.cookies.getAll({});
   deleteCookies(cookies);
-  return cookies;
 };
 
 const deleteCookies = (totalCookies) => {
