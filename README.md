@@ -3,6 +3,9 @@
 ## Abstract
 This browser extension allows users to access member-only Medium articles for free.
 
+## Important Note 
+This browser extension currently does not work while the DuckDuckGo browser extension is being used on Medium. If you have both extensions installed, you'll need to disable DuckDuckGo temporarily and refresh the page in order to read member-only Medium articles using Free Medium. 
+
 ## Tech Stack
 This project uses vanilla JS, CSS, and HTML. 
 
