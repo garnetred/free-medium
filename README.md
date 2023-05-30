@@ -18,7 +18,11 @@ You can clone the repo locally using `git clone`.
 
 
 
+https://github.com/garnetred/free-medium/assets/59572865/e7c82a3a-c4c3-497c-af63-10611811bbfb
+
+
+
 ## Next Steps
 I'd like to hide the gray bar that indicates how many member-only articles you have left. 
-
+I'd also like to convert this into a Firefox add-on. 
 
