@@ -1,6 +1,7 @@
 # Free Medium
 
-## Note - As of July 26, 2023, this browser extension has been deprecated. Medium now requires users to log in to view member-only stories, which prevents this browser extension from working. 
+## Deprecation
+As of July 26, 2023, this browser extension has been deprecated. Medium now requires users to log in to view member-only stories, which prevents this browser extension from working. Instead, you can try [Archive.is](http://archive.is) - also known as Archive.today.
 
 ## Abstract
 This browser extension allows users to access member-only Medium articles for free. Unfortunately this browser extension does not work for custom domains - see "next steps" for more details. 
