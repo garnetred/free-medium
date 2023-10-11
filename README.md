@@ -1,10 +1,9 @@
 # Free Medium
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/decemberthedeveloper)
+
 ## Deprecation
 As of July 26, 2023, this browser extension has been deprecated. Medium now requires users to log in to view member-only stories, which prevents this browser extension from working. Instead, you can try [Archive.is](http://archive.is) - also known as Archive.today.
-
-## Donate 
-You can support this extension by [buying me a coffee](https://www.buymeacoffee.com/decemberthedeveloper) to help me continue to make free, user-friendly browser extensions.
 
 ## Abstract
 This browser extension allows users to access member-only Medium articles for free. Unfortunately this browser extension does not work for custom domains - see "next steps" for more details. 
